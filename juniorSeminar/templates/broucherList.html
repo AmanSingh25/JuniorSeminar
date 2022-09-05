@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graduation Brochure</title>
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+  <body>
+    {% if student_data %}
+    <h1 style="color: blue">
+      <center>
+        These are the information of the students of fisk that are gradutating
+        this semester.
+      </center>
+    </h1>
+
+    <div class="student-majors">
+      {% for major in majors %}
+      <h2>{{major}}</h2>
+      <div class="majors">
+        {% for data in student_data[1:] %} {% if data[3].strip().upper() ==
+        major %}
+        <div class="col">{{data[6]}}</div>
+        {% endif %} {% endfor %}
+        <hr />
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </body>
+</html>
