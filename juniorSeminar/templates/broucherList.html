@@ -17,6 +17,21 @@
     </h1>
 
     <div class="student-majors">
+        {% for title in ['magna cum laude', 'summa cum laude', 'cum laude'] %}
+        <h2><u>{{title.upper()}}</u></h2>
+        <div class="majors">
+            {% for data in student_data[1:] %}
+            {% if data[4].strip().lower() == title %}
+            <div class="col">{{data[6]}}</div>
+            {% endif %}
+            {% endfor %}
+            <!-- <hr> -->
+        </div>
+        {% endfor %}
+    </div>
+    <hr>
+    <hr>    
+    <div class="student-majors">
       {% for major in majors %}
       <h2>{{major}}</h2>
       <div class="majors">
@@ -24,7 +39,7 @@
         major %}
         <div class="col">{{data[6]}}</div>
         {% endif %} {% endfor %}
-        <hr />
+        <!-- <hr> -->
       </div>
       {% endfor %}
     </div>

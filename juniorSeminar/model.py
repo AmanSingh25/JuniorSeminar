@@ -26,7 +26,6 @@ def majors_at_fisk(csv_file):
     
     return sorted(list(unique_majors))
 
-
 def is_all_empty(chars):
     '''
     this function checks if the input is empty and returnsw True
