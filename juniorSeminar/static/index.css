@@ -1,7 +1,31 @@
 body{
     background-color: #FFFFFF;
-    background-image: url(https://www.fisk.edu/wp-content/uploads/2019/11/STUDENT-FEATURE-BG.jpg)
+    background-image: url(https://thumbs.dreamstime.com/b/bell-tower-fisk-university-2759755.jpg);
 }
+.row {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    height: 200px; 
+}
+.column1{
+    background-color: gold;
+    margin-top: 380px;
+    
+}
+.column1:hover{
+    background-color: blue;
+}
+.column2{
+    background-color: blue;
+    width: 100%;
+    margin-left: 800px;
+    margin-top: -125px;
+}
+.column2:hover{
+    background-color: pink;
+}
+
 .container{
     display: flex;
     flex-direction: column;

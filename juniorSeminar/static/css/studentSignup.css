@@ -23,6 +23,16 @@ input[type="text"] {
   padding-left: 15px;
 }
 
+input[type="email"] {
+    /* It will target all the input elements whose type is text. */
+    width: 85%;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+
 input[type="password"] {
   /* It will target all the input elements whose type is password. */
   width: 85%;

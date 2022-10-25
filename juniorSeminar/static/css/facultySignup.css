@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+}
+.form {
+  width: 480px;
+  height: 670px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-left: 40%;
+}
+.form h1 {
+  margin-left: 160px;
+  color: blue;
+}
+input[type="text"] {
+  /* It will target all the input elements whose type is text. */
+  width: 85%;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+input[type="email"] {
+    /* It will target all the input elements whose type is text. */
+    width: 85%;
+    height: 40px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15px;
+  }
+
+input[type="password"] {
+  /* It will target all the input elements whose type is password. */
+  width: 85%;
+  height: 40px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+.intro p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 60px;
+}
+.form button {
+  margin-left: 40px;
+  color: #458bf2;
+}
+
+ul {
+  list-style-type: none;
+}
+.first {
+  /* background-color: red; */
+  margin-left: 80px;
+  padding-top: 30px;
+}
+.first a,
+.second a {
+  /*Will affect the two different <a> at a same time. */
+  padding-left: 10px;
+  color: #8a8d91;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+.second {
+  /* background-color: red; */
+  margin-left: 80px;
+  padding-top: 10px;
+}
+
+.test {
+  width: 59%;
+  margin-left: 20px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #1877f1;
+  padding-left: 115px;
+  padding-top: 15px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.password {
+  margin-top: 20px;
+}
+.password a {
+  text-decoration: None;
+}
+
+.password a:hover {
+  text-decoration: underline;
+}
+
+.discipline {
+    margin-top: 30px;
+    margin-left: 30px;
+}

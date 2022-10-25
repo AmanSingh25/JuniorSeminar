@@ -6,41 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <link rel="stylesheet" href="../static/css/signin.css" />
+    <link rel="stylesheet" href="../static/css/studentSignup.css" />
   </head>
   <body>
     <div class="form">
       <!-- form class which will contain all the login information of the user.-->
-      <form action="" method="POST">
-        <h1>Sign up</h1>
+      <form action="/StudentSignin" method="POST">
+        <h1>Sign Up</h1>
         <label class="label" for="fname"></label><br />
         <input
-          type="text"
-          id="fname"
-          name="fname"
-          placeholder="Student_Email"
+          type="email"
+          id="email"
+          name="student_email"
+          placeholder="Student University Email"
         /><br />
 
-        <label for="lname"></label><br />
+        <label for="id"></label><br />
         <input
           type="text"
-          id="lname"
-          name="lname"
-          placeholder="Student_ID"
+          id="id"
+          name="id"
+          placeholder="Student id"
         /><br />
-        <label for="lname"></label><br />
+        <label for="first_name"></label><br />
         <input
           type="text"
-          id="lname"
-          name="lname"
-          placeholder="First_Name"
+          id="first_name"
+          name="first_name"
+          placeholder="First name"
         /><br />
-        <label for="lname"></label><br />
+        <label for="middle_name"></label><br />
         <input
           type="text"
-          id="lname"
-          name="lname"
-          placeholder="Middle_Name"
+          id="middle_name"
+          name="middle_name"
+          placeholder="middle name"
         /><br />
         <label for="lname"></label><br />
         <input
@@ -49,26 +49,25 @@
           name="lname"
           placeholder="Last_Name"
         /><br />
-        <label for="lname"></label><br />
+        <label for="password"></label><br />
         <input
           type="password"
-          id="lname"
-          name="lname"
-          placeholder="NEW_PASSWORD"
+          id="password"
+          name="password"
+          placeholder="At least one upper, one lower and one special char"
         /><br />
 
         <label for="lname"></label><br />
         <input
           type="password"
-          id="lname"
-          name="lname"
-          placeholder="CONFIRM_PASSWORD"
+          id="password1"
+          name="password1"
+          placeholder="please enter the same password"
         /><br />
-
+        <br>
         <div class="test">
           <button type="submit">Submit</button>
         </div>
-
         <!--Here for every <a> tag, class is given with different name because later in css, they are used to style differenly.-->
       </form>
     </div>
